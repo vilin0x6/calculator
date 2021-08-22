@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0; /* Reset CSS */
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Courier New', Courier, monospace; /*Montserrat*/
+}
+section{
+    background-color: rgb(161, 176, 182);
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 90%;
+    max-width: 400px;
+    background-color: rgb(116, 178, 204);
+    border-radius: 8px;
+    overflow: hidden;
+}
+.display{
+    background-color: rgb(187, 222, 235);
+    height: 150px;
+    width: 100%;
+    text-align: right;
+    padding: 20px;
+    font-size: 40px;
+    position: relative;
+}
+.display_top{
+    opacity: .4;
+    font-size: 30px;
+    height: 42px;
+    overflow: hidden;
+}
+.temp_result{
+    position: absolute;
+    bottom: 0;
+    left: 10;
+    font-size: 25px;
+    opacity: .4;
+}
+.right_side{
+    background-color: rgb(89, 138, 159);
+}
+
+.buttons{
+    color: whitesmoke;
+    display: grid;
+    grid-template: repeat(4, 1fr) / repeat(5, 1fr); /* row / column */
+}
+.button{
+    border: .5px solid  rgba(92, 92, 92, 0.137);
+    display: inline-block;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+.button:hover:not(.empty .right_side){  /* empty button은 제외 */
+    background-color: rgb(78, 119, 135);
+    cursor: pointer;
+}
+.equal{
+    /* grid-column: 5;
+    grid-row: 3 / 5; */  /* 설정 안 돼서 height으로 처리함 */
+    height: 200%;
+}
