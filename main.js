@@ -84,11 +84,3 @@ clearEntryElem.addEventListener("click", (event) => {
   displayMidElem.innerText = '0';
   disMidNum = '';
 });
-
-
-
-
-
-
-// 키보드로도 연산 가능하게
-// 58:49부터
