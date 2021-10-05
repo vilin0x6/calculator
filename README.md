@@ -1,17 +1,9 @@
 Simple Web Calculator
 =====================
 간단한 사칙연산이 필요할 때 Simple Web Calculator를 이용해보세요!
+
 <br/>
-<img src="./img/calculator_img.jpg" width="700px" title="px(픽셀) 크기 설정" alt="Calculator"></img><br/>
-
------------------------------------------
-
-Table of Contents
------------------------------------------
-
-1. [➤About The Project](#about-the-project)
-2. [➤Demo Page](#demo-page)
-3. [➤Next Version Preview](#next-version-preview)
+<img src="./img/calculator-img.jpg" width="700px" title="px(픽셀) 크기 설정" alt="Calculator"></img><br/>
 
 
 📝 About The Project
