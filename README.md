@@ -3,7 +3,7 @@ Simple Web Calculator
 간단한 사칙연산이 필요할 때 Simple Web Calculator를 이용해보세요!
 
 <br/>
-<img src="./img/calculator-img.jpg" width="700px" title="px(픽셀) 크기 설정" alt="Calculator"></img><br/>
+<img src="./img/calculator-img.jpg" width="700px" alt="Calculator"></img><br/>
 
 
 📝 About The Project
